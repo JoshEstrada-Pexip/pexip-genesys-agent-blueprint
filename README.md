@@ -1,6 +1,6 @@
 # Deployment Guide for Pexip Video Integration into Genesys Cloud
 
-### Note: Added Handlers for Hold, Mute, and transfer.
+### Note: Added Handlers for Hold and Mute.
 
 This Genesys Blueprint provides instructions for deploying an application to integrate Pexip Video into Genesys Cloud Conversations. It uses an Interaction Widget to load the application within the context of a conversation, extracting the Pexip conference information and connecting the Agent directly via WebRTC to the conference in a self-hosted Pexip Infinity installation.
 
