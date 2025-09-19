@@ -3,11 +3,11 @@ export default {
     environment: 'development',
 
     // Using local test servers
-    developmentUri: 'http://localhost:8080',
+    developmentUri: 'https://github.com/JoshEstrada-Pexip/pexip-genesys-agent-blueprint/blob/main/agent-app/',
 
     // Publicly accessible location where the admin-app files are hosted.
     // This is different than the Pexip conference node value below.
-    prodUri:  'https://github.com/JoshEstrada-Pexip/pexip-genesys-agent-blueprint/blob/main/agent-app/index.html',
+    prodUri:  'https://github.com/JoshEstrada-Pexip/pexip-genesys-agent-blueprint/blob/main/agent-app/',
 
     // Id for the video DOM element. Only change this if you customize index.html.
     videoElementId: "pexip-video-container",
@@ -25,12 +25,12 @@ export default {
 
     pexip: {
         // Used to identify the conference attendee for proper handling by Pexip Infinity local policy.
-        conferencePrefix: "app",
+        conferencePrefix: "app_",
 
         // External domain for Pexip Infinity Edge/Transcoding nodes.
         conferenceNode: "http://pex-simon-edge2.gcp.pexsupport.com/",
 
         // Conference PIN. Must match the PIN number set by Pexip Infinity local policy for ad-hoc conference creation.
-        conferencePin: "1234"
+        conferencePin: "2021"
     }
 }
